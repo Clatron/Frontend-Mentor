@@ -67,4 +67,5 @@ body {
     color: var(--grey);
     text-align: center;
     margin: 0;
+    margin-bottom: 1.5rem;
 }
