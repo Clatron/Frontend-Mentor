@@ -9,8 +9,12 @@
     --white: #FFFFFF;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
-  margin: 0;
   padding: 0;
   background-color: var(--light-grey);
   font-family: 'Outfit', sans-serif;
@@ -28,7 +32,6 @@ body {
     max-width: 320px;
     background-color: var(--white);
     border-radius: 20px;
-    box-sizing: border-box;
     padding: 1rem;
     gap: 1.5rem;
 
@@ -41,7 +44,7 @@ body {
 }
 
 .qr-code {
-    width: 288px;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -57,15 +60,14 @@ body {
     font-weight: bold;
     color: var(--dark-navy);
     text-align: center;
-    margin: 0;
 }
 
 .description {
-    width: 256px;
+    height: 57px;
     font-size: 15px;
     font-weight: normal;
     color: var(--grey);
     text-align: center;
-    margin: 0;
+    padding: 0 1rem;
     margin-bottom: 1.5rem;
 }
